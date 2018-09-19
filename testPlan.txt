@@ -1,0 +1,6 @@
+Input			Output					test condition
+{37, 12, 17, 59}	{59, 37, 17, 12}			typical
+null			throws IllegalArguementException	exceptional
+{45, 10, 2, 5}		{45, 10, 5, 2}				typical
+{81, 1, 42}		{81, 42, 1}				typical
+{20, 2, 138, 11}	{138, 20, 11, 2}			typical
